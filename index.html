@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rubik's Cube World</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#types">Types</a></li>
+                <li><a href="#solving">Solving</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Rubik's Cube</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Rubik%27s_cube.svg/1200px-Rubik%27s_cube.svg.png" alt="Rubik's Cube" class="cube-image">
+            <p>The Rubik's Cube is a 3D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube, it has become one of the world's best-selling toys and a popular puzzle for competitive speedcubing.</p>
+        </section>
+
+        <section id="history">
+            <h2>History of the Rubik's Cube</h2>
+            <p>The Rubik's Cube was invented in 1974 by Hungarian architecture professor Ernő Rubik. Initially created as a teaching tool to help his students understand 3D objects, Rubik didn't realize he had created a puzzle until the first time he scrambled his new cube and tried to restore it. The cube was first called the "Magic Cube" in Hungary. Rubik applied for a patent in Hungary for the "Magic Cube" in 1975, and the first cubes were produced and sold by Politoys Ipari Szövetkezet in Budapest. The puzzle was licensed by Rubik to be sold by Ideal Toy Corp in 1980 and gained international popularity, becoming one of the world's best-selling toys. To date, over 350 million Rubik's Cubes have been sold worldwide, making it the best-selling toy of all time.</p>
+        </section>
+
+        <section id="types">
+            <h2>Types of Rubik's Cubes</h2>
+            <div class="cube-types">
+                <div class="cube-type">
+                    <img src="cube 2x2.jpeg" alt="2x2 Cube" onerror="this.onerror=null; this.src='https://via.placeholder.com/150x150?text=2x2+Cube';">
+                    <h3>2x2 Cube</h3>
+                    <p>Also known as the "Pocket Cube," this is a simpler version of the classic 3x3.</p>
+                </div>
+                <div class="cube-type">
+                    <img src="cube 3x3.jpeg" alt="3x3 Cube" onerror="this.onerror=null; this.src='https://via.placeholder.com/150x150?text=3x3+Cube';">
+                    <h3>3x3 Cube</h3>
+                    <p>The classic Rubik's Cube, with 43 quintillion possible combinations.</p>
+                </div>
+                <div class="cube-type">
+                    <img src="4x4 cube.jpeg" alt="4x4 Cube" onerror="this.onerror=null; this.src='https://via.placeholder.com/150x150?text=4x4+Cube';">
+                    <h3>4x4 Cube</h3>
+                    <p>Also called "Rubik's Revenge," this cube offers a greater challenge.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="solving">
+            <h2>Solving the Rubik's Cube</h2>
+            <p>Solving a Rubik's Cube can be challenging, but with practice and the right techniques, anyone can do it! Here's a basic outline of the steps:</p>
+            <ol>
+                <li>Solve the white cross</li>
+                <li>Solve the white corners</li>
+                <li>Solve the middle layer</li>
+                <li>Solve the yellow cross</li>
+                <li>Solve the yellow corners</li>
+                <li>Orient the last layer</li>
+            </ol>
+            <button id="showTutorial">Show Video Tutorial</button>
+            <div id="tutorialVideo" style="display: none;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Ron6MN45LY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/playlist?list=PLI24ciRbl8BUHEeOBaLXY4GpaVXSULYp4" target="_blank" class="button">Learn to Solve (YouTube Playlist)</a>
+        </section>
+
+        <section id="speedcubing">
+            <h2>Speedcubing</h2>
+            <p>Speedcubing is the practice of solving a Rubik's Cube as quickly as possible. Competitions are held worldwide, with records being broken regularly.</p>
+            <a href="https://www.worldcubeassociation.org/competitions" target="_blank" class="button cta">Find Speedcubing Competitions</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rubik's Cube World. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
